@@ -1,3 +1,6 @@
+# Lambda use in a principal function(method)
+
+
 def main():
     calc = lambda pricing, discount: pricing * (100 - discount) / 100
 
