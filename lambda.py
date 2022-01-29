@@ -1,10 +1,5 @@
-import math
+# Python lambda functions or anonymous functions
 
-square = lambda x: math.sqrt(x)
+sum = lambda x, y: x + y
 
-num = int(input('Get a square root: '))
-print(f'Result = {square(num)}')
-
-
-# square = lambda x: math.sqrt(x)
-# print(f'Result = {square(25)}')
+print(f'The sum is: {sum(45, 25)}')
