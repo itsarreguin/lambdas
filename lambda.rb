@@ -1,5 +1,5 @@
 # Ruby lambda functions
 
-sum = lambda { |x, y| puts "The result is: #{x + y}" }
+sum = lambda { |x, y| x + y }
 
-puts sum.call(45, 25)
+puts "The result is #{sum.call(45, 25)}"
